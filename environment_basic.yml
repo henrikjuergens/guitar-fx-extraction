@@ -1,0 +1,11 @@
+name: gitfx
+dependencies:
+  - python=3.7
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn=0.22
+  - joblib
+  - pathlib
+  - scipy
+  - keras

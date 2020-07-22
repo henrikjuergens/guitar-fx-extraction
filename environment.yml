@@ -1,0 +1,14 @@
+name: gitfx
+channels:
+  - defaults
+dependencies:
+  - pathlib
+  - python=3.7
+  - scipy
+  - scikit-learn=0.22
+  - pandas
+  - keras=2.2.*
+  - matplotlib
+  - numpy=1.17.*
+  - joblib
+
