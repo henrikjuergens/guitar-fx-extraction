@@ -32,7 +32,8 @@ Download and extract the FX-Estimation Samples from https://seafile.cloud.uni-ha
 For plots uncomment specific plot in featextr.py or fxparamest.py. You can modify plots.py to change the plots.
 
 ### To Generate Data:
-**Note**: The used distortion plugin is only available on Windows - it was chosen because it is similar to the one used for the the IDMT-SMT-AUDIO-EFFECTS Dataset
+**Note**: The used distortion plugin is only available on Windows - it was chosen because it is similar to the one used for the the IDMT-SMT-AUDIO-EFFECTS Dataset.
+
 The folder reaperscripts contains scripts for sample generation with the integrated scripting terminal of reaper (DAW)
 1. Download the distortion and tremolo plugins from the following links: 
     - https://vst4free.com/plugin/582/
