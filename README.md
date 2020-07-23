@@ -32,12 +32,16 @@ Download and extract the FX-Estimation Samples from https://seafile.cloud.uni-ha
 For plots uncomment specific plot in featextr.py or fxparamest.py. You can modify plots.py to change the plots.
 
 ### To Generate Data:
+**Note**: The used distortion plugin is only available on Windows - it was chosen because it is similar to the one used for the the IDMT-SMT-AUDIO-EFFECTS Dataset
 The folder reaperscripts contains scripts for sample generation with the integrated scripting terminal of reaper (DAW)
-1. Create a new reaper project with one track or open one of the provided projects
-2. Change the audio system of reaper to Dummy Audio (sample generation will be twice as fast)
-3. Make sure all the paths for loading the samples are correct for your system
-4. Open the script terminal with Actions -> Show Action List -> ReaScript: Load
-5. Press Ctrl + S to run the script
+1. Download the distortion and tremolo plugins from the following links: 
+    - https://vst4free.com/plugin/582/
+    - https://pechenegfx.blogspot.com/2014/11/the-plugin-pecheneg-tremolo.html
+2. Create a new reaper project with one track and insert the plugin in the fx slot (as delay we use the ReaDelay)
+3. Change the audio system of reaper to Dummy Audio (sample generation will be twice as fast)
+4. Make sure all the paths for loading the samples are correct for your system
+5. Open the script terminal with Actions -> Show Action List -> ReaScript: Load
+6. Press Ctrl + S to run the script
 (Will process ~1000 Samples per hour on an average machine)
 
 ## Citation
