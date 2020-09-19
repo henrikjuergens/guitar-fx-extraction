@@ -1,6 +1,7 @@
 # Recognizing Guitar Effects and Their Parameter Settings
 This repostory contains the source code to the paper "Recognizing Guitar Effects and Their Parameter Settings".
 The paper presents a method to extract guitar effects and their parameter settings from audio.
+The paper can be found here: 
 The master thesis for which this code was developed is available in German at: https://seafile.cloud.uni-hannover.de/f/4170d1de392b4e03baf4/?dl=1
 
 The code is tested on OpenSUSE and Windows 10, different operating systems might require small changes.
@@ -9,6 +10,7 @@ The code is tested on OpenSUSE and Windows 10, different operating systems might
 Download and extract the IDMT-SMT-AUDIO-EFFECTS Dataset from https://www.idmt.fraunhofer.de/en/business_units/m2d/smt/guitar.html
 Download and extract the FX-Estimation Samples from https://seafile.cloud.uni-hannover.de/f/2157452034354e6aa989/?dl=1
 (Alternatively these samples can be generated from the IDMT Dataset, see To Generate Data below.)
+If you don't want to train the network yourself, you can download our models here: https://seafile.cloud.uni-hannover.de/f/e2f59129188c49adb58e/?dl=1
 
 1. Install anaconda, if not already installed
 2. Create new environment with .yml file in the repository: ```conda env create -f environment.yml```
@@ -47,5 +49,19 @@ The folder reaperscripts contains scripts for sample generation with the integra
 
 ## Citation
 Please cite our paper in your publications if the paper/our code or our database data helps your research:
+        
+    @inproceedings{Juergens20,
+        title = {Recognizing Guitar Effects and Their Parameter Settings},
+        author = {J{\"u}rgens, Henrik and Hinrichs, Reemt and Ostermann, J{\"o}rn},
+        crossref = {dafx20},
+        pages = {310--316}
+    }
 
-*we will update the reference as soon as the full paper is published*
+    @proceedings{dafx20,
+        booktitle = {Proceedings of the 23rd International Conference on Digital Audio Effects},
+        year = {2020},
+        month = {09},
+        issn = {2413-6700},
+        venue = {Vienna, Austria},
+        editor = {Evangelista, Gianpaolo}
+    }
