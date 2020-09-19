@@ -10,6 +10,7 @@ The code is tested on OpenSUSE and Windows 10, different operating systems might
 Download and extract the IDMT-SMT-AUDIO-EFFECTS Dataset from https://www.idmt.fraunhofer.de/en/business_units/m2d/smt/guitar.html
 Download and extract the FX-Estimation Samples from https://seafile.cloud.uni-hannover.de/f/2157452034354e6aa989/?dl=1
 (Alternatively these samples can be generated from the IDMT Dataset, see To Generate Data below.)
+
 If you don't want to train the network yourself, you can download our models here: https://seafile.cloud.uni-hannover.de/f/e2f59129188c49adb58e/?dl=1
 
 1. Install anaconda, if not already installed
