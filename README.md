@@ -1,7 +1,9 @@
 # Recognizing Guitar Effects and Their Parameter Settings
 This repostory contains the source code to the paper "Recognizing Guitar Effects and Their Parameter Settings".
 The paper presents a method to extract guitar effects and their parameter settings from audio.
-The paper can be found here: 
+
+The paper can be found here: https://dafx2020.mdw.ac.at/proceedings/papers/DAFx2020_paper_2.pdf
+
 The master thesis for which this code was developed is available in German at: https://seafile.cloud.uni-hannover.de/f/4170d1de392b4e03baf4/?dl=1
 
 The code is tested on OpenSUSE and Windows 10, different operating systems might require small changes.
