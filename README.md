@@ -56,15 +56,15 @@ Please cite our paper in your publications if the paper/our code or our database
     @inproceedings{Juergens20,
         title = {Recognizing Guitar Effects and Their Parameter Settings},
         author = {J{\"u}rgens, Henrik and Hinrichs, Reemt and Ostermann, J{\"o}rn},
-        crossref = {dafx20},
-        pages = {310--316}
-    }
-
-    @proceedings{dafx20,
-        booktitle = {Proceedings of the 23rd International Conference on Digital Audio Effects},
-        year = {2020},
-        month = {09},
+        booktitle = "Proceedings of the 23-rd Int. Conf. on Digital Audio Effects (DAFx2020)",
+        editor = "Evangelista, G.",
+        location = "Vienna, Austria",
+        eventdate = "2020-09-08/2020-09-12",
+        year = "2020-21",
+        month = "Sept.",
+        publisher = "",
+        volume = "1",
+        doi = "",
+        pages = "310--316"
         issn = {2413-6700},
-        venue = {Vienna, Austria},
-        editor = {Evangelista, Gianpaolo}
     }
